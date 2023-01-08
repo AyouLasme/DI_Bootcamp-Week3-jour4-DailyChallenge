@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class ="container">
+  <div id="myDIV" class="header">
+    <h2 style="margin:5px">To Do List</h2>
+    <input type="text" id="myInput" placeholder="New Task">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+
+  <div class ="session2">
+    <ul id="myUL">
+      <li class="checked"> Vanilla javascript</li>
+      <li class="checked">Vue Js</li>
+      <li>React js</li>
+      <li>Node Js</li>
+    </ul>
+  </div>
+  <div class="divbutton">
+    <button onclick="removeAllElement()" class="clearBtn">clear</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
